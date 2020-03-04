@@ -1,10 +1,10 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
-  name: {{ template "helm-guestbook.fullname" . }}
+  name: {{ template "helm-canary-demo.fullname" . }}
   labels:
-    app: {{ template "helm-guestbook.name" . }}
-    chart: {{ template "helm-guestbook.chart" . }}
+    app: {{ template "helm-canary-demo.name" . }}
+    chart: {{ template "helm-canary-demo.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 spec:
@@ -15,10 +15,16 @@ spec:
       app: {{ template "helm-canary-demo.name" . }}
       release: {{ .Release.Name }}
   strategy:
-    blueGreen:
-      activeService: {{ template "helm-canary-demo.fullname" . }}
-      previewService: {{ template "helm-canary-demo.fullname" . }}-preview
-      autoPromotionEnabled: false
+    canary:
+      steps:
+      - setWeight: 20
+      - pause: {}
+      - setWeight: 40
+      - pause: {duration: 40}
+      - setWeight: 60
+      - pause: {duration: 20}
+      - setWeight: 80
+      - pause: {duration: 20}
   template:
     metadata:
       labels:
