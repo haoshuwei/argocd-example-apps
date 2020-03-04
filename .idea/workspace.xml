@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90162450-5efe-403f-8e70-020937d288c1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/canary/templates/NOTES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/canary/templates/NOTES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canary/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/canary/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blue-green/templates/rollout.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/blue-green/templates/rollout.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,11 +40,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rollout.yaml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="rollout.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blue-green/templates/rollout.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+            <state relative-caret-position="188">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blue-green/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -59,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="values.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="values.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/canary/values.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -100,9 +111,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>guestbook</find>
+      <find>canary</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/canary</dir>
+      <dir>$PROJECT_DIR$/blue-green</dir>
     </dirStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
@@ -115,12 +128,12 @@
         <option value="$PROJECT_DIR$/blue-green/templates/services.yaml" />
         <option value="$PROJECT_DIR$/blue-green/values.yaml" />
         <option value="$PROJECT_DIR$/canary/Chart.yaml" />
-        <option value="$PROJECT_DIR$/blue-green/templates/rollout.yaml" />
         <option value="$PROJECT_DIR$/canary/templates/_helpers.tpl" />
         <option value="$PROJECT_DIR$/canary/templates/services.yaml" />
         <option value="$PROJECT_DIR$/canary/templates/rollout.yaml" />
         <option value="$PROJECT_DIR$/canary/templates/NOTES.txt" />
         <option value="$PROJECT_DIR$/canary/values.yaml" />
+        <option value="$PROJECT_DIR$/blue-green/templates/rollout.yaml" />
       </list>
     </option>
   </component>
@@ -150,6 +163,17 @@
             <path>
               <item name="argocd-example-apps" type="b2602c69:ProjectViewProjectNode" />
               <item name="argocd-example-apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="argocd-example-apps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="argocd-example-apps" type="462c0819:PsiDirectoryNode" />
+              <item name="blue-green" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="argocd-example-apps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="argocd-example-apps" type="462c0819:PsiDirectoryNode" />
+              <item name="blue-green" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="argocd-example-apps" type="b2602c69:ProjectViewProjectNode" />
@@ -295,27 +319,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue-green/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/canary/Chart.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blue-green/templates/rollout.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -351,6 +358,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue-green/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue-green/templates/rollout.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
         </state>
       </provider>
     </entry>
