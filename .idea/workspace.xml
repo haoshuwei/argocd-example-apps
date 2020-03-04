@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90162450-5efe-403f-8e70-020937d288c1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/blue-green/templates/rollout.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/blue-green/templates/rollout.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blue-green/templates/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/blue-green/templates/services.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blue-green/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/blue-green/values.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Chart.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Chart.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blue-green/Chart.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -27,17 +25,17 @@
       <file leaf-file-name="services.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blue-green/templates/services.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="234">
               <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="values.yaml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="values.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blue-green/values.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-141">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="180">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -60,9 +58,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blue-green/values.yaml" />
         <option value="$PROJECT_DIR$/blue-green/templates/rollout.yaml" />
         <option value="$PROJECT_DIR$/blue-green/templates/services.yaml" />
+        <option value="$PROJECT_DIR$/blue-green/values.yaml" />
       </list>
     </option>
   </component>
@@ -163,13 +161,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blue-green/values.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blue-green/templates/rollout.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-21">
@@ -184,17 +175,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue-green/templates/services.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blue-green/Chart.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue-green/templates/services.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue-green/values.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>
